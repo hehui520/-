@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+  </head>
+  <form action="商品列表.html" method="post">
+    <bady>
+      <div
+        style="
+          background-color: rgb(127, 244, 255);
+          text-align: center;
+          padding: 300px;
+        "
+      >
+        <h1>Wecome My Friend</h1>
+        <p>
+          用户名<input
+            type="text"
+            name="a"
+            placeholder="请输入2-6位中文"
+            pattern="[\u4e00-\u9fa5]{2,4}"
+            required="required"
+          />
+        </p>
+        <p>
+          密码<input
+            type="password"
+            name="b"
+            placeholder="请输入6-14位字符"
+            pattern="\w{3,14}"
+            required="required"
+          />
+        </p>
+        <p>
+          邮箱<input
+            type="email"
+            name="email"
+            placeholder="请输入正确的邮箱格式"
+            required="required"
+          />
+        </p>
+        <p>
+          <input type="submit" value="登录" />
+          <input type="reset" value="重置" />
+        </p>
+      </div>
+    </bady>
+  </form>
+</html>
